@@ -1,0 +1,19 @@
+{
+	"name": "cat_dog_ai",
+	"version": "1.0.0",
+	"description": "cat_dog recognition AI",
+	"main": "index.ts",
+	"repository": "https://github.com/AndriyDubovichWork/cat_dog_ai.git",
+	"author": "AndriyDubovichWork <86286088+AndriyDubovichWork@users.noreply.github.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "nodemon index.ts"
+	},
+	"dependencies": {
+		"@tensorflow/tfjs": "^4.2.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20",
+		"typescript": "^4.9.5"
+	}
+}
